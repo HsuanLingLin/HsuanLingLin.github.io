@@ -1,4 +1,4 @@
-@import url("fontawesome-all.min.css");
+@import url("font-awesome.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,300italic,400italic");
 
 /*
@@ -296,19 +296,19 @@
 		}
 
 		.row > .col-1 {
-			width: 8.33333%;
+			width: 8.3333333333%;
 		}
 
 		.row > .off-1 {
-			margin-left: 8.33333%;
+			margin-left: 8.3333333333%;
 		}
 
 		.row > .col-2 {
-			width: 16.66667%;
+			width: 16.6666666667%;
 		}
 
 		.row > .off-2 {
-			margin-left: 16.66667%;
+			margin-left: 16.6666666667%;
 		}
 
 		.row > .col-3 {
@@ -320,19 +320,19 @@
 		}
 
 		.row > .col-4 {
-			width: 33.33333%;
+			width: 33.3333333333%;
 		}
 
 		.row > .off-4 {
-			margin-left: 33.33333%;
+			margin-left: 33.3333333333%;
 		}
 
 		.row > .col-5 {
-			width: 41.66667%;
+			width: 41.6666666667%;
 		}
 
 		.row > .off-5 {
-			margin-left: 41.66667%;
+			margin-left: 41.6666666667%;
 		}
 
 		.row > .col-6 {
@@ -344,19 +344,19 @@
 		}
 
 		.row > .col-7 {
-			width: 58.33333%;
+			width: 58.3333333333%;
 		}
 
 		.row > .off-7 {
-			margin-left: 58.33333%;
+			margin-left: 58.3333333333%;
 		}
 
 		.row > .col-8 {
-			width: 66.66667%;
+			width: 66.6666666667%;
 		}
 
 		.row > .off-8 {
-			margin-left: 66.66667%;
+			margin-left: 66.6666666667%;
 		}
 
 		.row > .col-9 {
@@ -368,19 +368,19 @@
 		}
 
 		.row > .col-10 {
-			width: 83.33333%;
+			width: 83.3333333333%;
 		}
 
 		.row > .off-10 {
-			margin-left: 83.33333%;
+			margin-left: 83.3333333333%;
 		}
 
 		.row > .col-11 {
-			width: 91.66667%;
+			width: 91.6666666667%;
 		}
 
 		.row > .off-11 {
-			margin-left: 91.66667%;
+			margin-left: 91.6666666667%;
 		}
 
 		.row > .col-12 {
@@ -539,19 +539,19 @@
 				}
 
 				.row > .col-1-wide {
-					width: 8.33333%;
+					width: 8.3333333333%;
 				}
 
 				.row > .off-1-wide {
-					margin-left: 8.33333%;
+					margin-left: 8.3333333333%;
 				}
 
 				.row > .col-2-wide {
-					width: 16.66667%;
+					width: 16.6666666667%;
 				}
 
 				.row > .off-2-wide {
-					margin-left: 16.66667%;
+					margin-left: 16.6666666667%;
 				}
 
 				.row > .col-3-wide {
@@ -563,19 +563,19 @@
 				}
 
 				.row > .col-4-wide {
-					width: 33.33333%;
+					width: 33.3333333333%;
 				}
 
 				.row > .off-4-wide {
-					margin-left: 33.33333%;
+					margin-left: 33.3333333333%;
 				}
 
 				.row > .col-5-wide {
-					width: 41.66667%;
+					width: 41.6666666667%;
 				}
 
 				.row > .off-5-wide {
-					margin-left: 41.66667%;
+					margin-left: 41.6666666667%;
 				}
 
 				.row > .col-6-wide {
@@ -587,19 +587,19 @@
 				}
 
 				.row > .col-7-wide {
-					width: 58.33333%;
+					width: 58.3333333333%;
 				}
 
 				.row > .off-7-wide {
-					margin-left: 58.33333%;
+					margin-left: 58.3333333333%;
 				}
 
 				.row > .col-8-wide {
-					width: 66.66667%;
+					width: 66.6666666667%;
 				}
 
 				.row > .off-8-wide {
-					margin-left: 66.66667%;
+					margin-left: 66.6666666667%;
 				}
 
 				.row > .col-9-wide {
@@ -611,19 +611,19 @@
 				}
 
 				.row > .col-10-wide {
-					width: 83.33333%;
+					width: 83.3333333333%;
 				}
 
 				.row > .off-10-wide {
-					margin-left: 83.33333%;
+					margin-left: 83.3333333333%;
 				}
 
 				.row > .col-11-wide {
-					width: 91.66667%;
+					width: 91.6666666667%;
 				}
 
 				.row > .off-11-wide {
-					margin-left: 91.66667%;
+					margin-left: 91.6666666667%;
 				}
 
 				.row > .col-12-wide {
@@ -784,19 +784,19 @@
 				}
 
 				.row > .col-1-normal {
-					width: 8.33333%;
+					width: 8.3333333333%;
 				}
 
 				.row > .off-1-normal {
-					margin-left: 8.33333%;
+					margin-left: 8.3333333333%;
 				}
 
 				.row > .col-2-normal {
-					width: 16.66667%;
+					width: 16.6666666667%;
 				}
 
 				.row > .off-2-normal {
-					margin-left: 16.66667%;
+					margin-left: 16.6666666667%;
 				}
 
 				.row > .col-3-normal {
@@ -808,19 +808,19 @@
 				}
 
 				.row > .col-4-normal {
-					width: 33.33333%;
+					width: 33.3333333333%;
 				}
 
 				.row > .off-4-normal {
-					margin-left: 33.33333%;
+					margin-left: 33.3333333333%;
 				}
 
 				.row > .col-5-normal {
-					width: 41.66667%;
+					width: 41.6666666667%;
 				}
 
 				.row > .off-5-normal {
-					margin-left: 41.66667%;
+					margin-left: 41.6666666667%;
 				}
 
 				.row > .col-6-normal {
@@ -832,19 +832,19 @@
 				}
 
 				.row > .col-7-normal {
-					width: 58.33333%;
+					width: 58.3333333333%;
 				}
 
 				.row > .off-7-normal {
-					margin-left: 58.33333%;
+					margin-left: 58.3333333333%;
 				}
 
 				.row > .col-8-normal {
-					width: 66.66667%;
+					width: 66.6666666667%;
 				}
 
 				.row > .off-8-normal {
-					margin-left: 66.66667%;
+					margin-left: 66.6666666667%;
 				}
 
 				.row > .col-9-normal {
@@ -856,19 +856,19 @@
 				}
 
 				.row > .col-10-normal {
-					width: 83.33333%;
+					width: 83.3333333333%;
 				}
 
 				.row > .off-10-normal {
-					margin-left: 83.33333%;
+					margin-left: 83.3333333333%;
 				}
 
 				.row > .col-11-normal {
-					width: 91.66667%;
+					width: 91.6666666667%;
 				}
 
 				.row > .off-11-normal {
-					margin-left: 91.66667%;
+					margin-left: 91.6666666667%;
 				}
 
 				.row > .col-12-normal {
@@ -1029,19 +1029,19 @@
 				}
 
 				.row > .col-1-narrow {
-					width: 8.33333%;
+					width: 8.3333333333%;
 				}
 
 				.row > .off-1-narrow {
-					margin-left: 8.33333%;
+					margin-left: 8.3333333333%;
 				}
 
 				.row > .col-2-narrow {
-					width: 16.66667%;
+					width: 16.6666666667%;
 				}
 
 				.row > .off-2-narrow {
-					margin-left: 16.66667%;
+					margin-left: 16.6666666667%;
 				}
 
 				.row > .col-3-narrow {
@@ -1053,19 +1053,19 @@
 				}
 
 				.row > .col-4-narrow {
-					width: 33.33333%;
+					width: 33.3333333333%;
 				}
 
 				.row > .off-4-narrow {
-					margin-left: 33.33333%;
+					margin-left: 33.3333333333%;
 				}
 
 				.row > .col-5-narrow {
-					width: 41.66667%;
+					width: 41.6666666667%;
 				}
 
 				.row > .off-5-narrow {
-					margin-left: 41.66667%;
+					margin-left: 41.6666666667%;
 				}
 
 				.row > .col-6-narrow {
@@ -1077,19 +1077,19 @@
 				}
 
 				.row > .col-7-narrow {
-					width: 58.33333%;
+					width: 58.3333333333%;
 				}
 
 				.row > .off-7-narrow {
-					margin-left: 58.33333%;
+					margin-left: 58.3333333333%;
 				}
 
 				.row > .col-8-narrow {
-					width: 66.66667%;
+					width: 66.6666666667%;
 				}
 
 				.row > .off-8-narrow {
-					margin-left: 66.66667%;
+					margin-left: 66.6666666667%;
 				}
 
 				.row > .col-9-narrow {
@@ -1101,19 +1101,19 @@
 				}
 
 				.row > .col-10-narrow {
-					width: 83.33333%;
+					width: 83.3333333333%;
 				}
 
 				.row > .off-10-narrow {
-					margin-left: 83.33333%;
+					margin-left: 83.3333333333%;
 				}
 
 				.row > .col-11-narrow {
-					width: 91.66667%;
+					width: 91.6666666667%;
 				}
 
 				.row > .off-11-narrow {
-					margin-left: 91.66667%;
+					margin-left: 91.6666666667%;
 				}
 
 				.row > .col-12-narrow {
@@ -1274,19 +1274,19 @@
 				}
 
 				.row > .col-1-narrower {
-					width: 8.33333%;
+					width: 8.3333333333%;
 				}
 
 				.row > .off-1-narrower {
-					margin-left: 8.33333%;
+					margin-left: 8.3333333333%;
 				}
 
 				.row > .col-2-narrower {
-					width: 16.66667%;
+					width: 16.6666666667%;
 				}
 
 				.row > .off-2-narrower {
-					margin-left: 16.66667%;
+					margin-left: 16.6666666667%;
 				}
 
 				.row > .col-3-narrower {
@@ -1298,19 +1298,19 @@
 				}
 
 				.row > .col-4-narrower {
-					width: 33.33333%;
+					width: 33.3333333333%;
 				}
 
 				.row > .off-4-narrower {
-					margin-left: 33.33333%;
+					margin-left: 33.3333333333%;
 				}
 
 				.row > .col-5-narrower {
-					width: 41.66667%;
+					width: 41.6666666667%;
 				}
 
 				.row > .off-5-narrower {
-					margin-left: 41.66667%;
+					margin-left: 41.6666666667%;
 				}
 
 				.row > .col-6-narrower {
@@ -1322,19 +1322,19 @@
 				}
 
 				.row > .col-7-narrower {
-					width: 58.33333%;
+					width: 58.3333333333%;
 				}
 
 				.row > .off-7-narrower {
-					margin-left: 58.33333%;
+					margin-left: 58.3333333333%;
 				}
 
 				.row > .col-8-narrower {
-					width: 66.66667%;
+					width: 66.6666666667%;
 				}
 
 				.row > .off-8-narrower {
-					margin-left: 66.66667%;
+					margin-left: 66.6666666667%;
 				}
 
 				.row > .col-9-narrower {
@@ -1346,19 +1346,19 @@
 				}
 
 				.row > .col-10-narrower {
-					width: 83.33333%;
+					width: 83.3333333333%;
 				}
 
 				.row > .off-10-narrower {
-					margin-left: 83.33333%;
+					margin-left: 83.3333333333%;
 				}
 
 				.row > .col-11-narrower {
-					width: 91.66667%;
+					width: 91.6666666667%;
 				}
 
 				.row > .off-11-narrower {
-					margin-left: 91.66667%;
+					margin-left: 91.6666666667%;
 				}
 
 				.row > .col-12-narrower {
@@ -1519,19 +1519,19 @@
 				}
 
 				.row > .col-1-mobile {
-					width: 8.33333%;
+					width: 8.3333333333%;
 				}
 
 				.row > .off-1-mobile {
-					margin-left: 8.33333%;
+					margin-left: 8.3333333333%;
 				}
 
 				.row > .col-2-mobile {
-					width: 16.66667%;
+					width: 16.6666666667%;
 				}
 
 				.row > .off-2-mobile {
-					margin-left: 16.66667%;
+					margin-left: 16.6666666667%;
 				}
 
 				.row > .col-3-mobile {
@@ -1543,19 +1543,19 @@
 				}
 
 				.row > .col-4-mobile {
-					width: 33.33333%;
+					width: 33.3333333333%;
 				}
 
 				.row > .off-4-mobile {
-					margin-left: 33.33333%;
+					margin-left: 33.3333333333%;
 				}
 
 				.row > .col-5-mobile {
-					width: 41.66667%;
+					width: 41.6666666667%;
 				}
 
 				.row > .off-5-mobile {
-					margin-left: 41.66667%;
+					margin-left: 41.6666666667%;
 				}
 
 				.row > .col-6-mobile {
@@ -1567,19 +1567,19 @@
 				}
 
 				.row > .col-7-mobile {
-					width: 58.33333%;
+					width: 58.3333333333%;
 				}
 
 				.row > .off-7-mobile {
-					margin-left: 58.33333%;
+					margin-left: 58.3333333333%;
 				}
 
 				.row > .col-8-mobile {
-					width: 66.66667%;
+					width: 66.6666666667%;
 				}
 
 				.row > .off-8-mobile {
-					margin-left: 66.66667%;
+					margin-left: 66.6666666667%;
 				}
 
 				.row > .col-9-mobile {
@@ -1591,19 +1591,19 @@
 				}
 
 				.row > .col-10-mobile {
-					width: 83.33333%;
+					width: 83.3333333333%;
 				}
 
 				.row > .off-10-mobile {
-					margin-left: 83.33333%;
+					margin-left: 83.3333333333%;
 				}
 
 				.row > .col-11-mobile {
-					width: 91.66667%;
+					width: 91.6666666667%;
 				}
 
 				.row > .off-11-mobile {
-					margin-left: 91.66667%;
+					margin-left: 91.6666666667%;
 				}
 
 				.row > .col-12-mobile {
@@ -1764,19 +1764,19 @@
 				}
 
 				.row > .col-1-mobilep {
-					width: 8.33333%;
+					width: 8.3333333333%;
 				}
 
 				.row > .off-1-mobilep {
-					margin-left: 8.33333%;
+					margin-left: 8.3333333333%;
 				}
 
 				.row > .col-2-mobilep {
-					width: 16.66667%;
+					width: 16.6666666667%;
 				}
 
 				.row > .off-2-mobilep {
-					margin-left: 16.66667%;
+					margin-left: 16.6666666667%;
 				}
 
 				.row > .col-3-mobilep {
@@ -1788,19 +1788,19 @@
 				}
 
 				.row > .col-4-mobilep {
-					width: 33.33333%;
+					width: 33.3333333333%;
 				}
 
 				.row > .off-4-mobilep {
-					margin-left: 33.33333%;
+					margin-left: 33.3333333333%;
 				}
 
 				.row > .col-5-mobilep {
-					width: 41.66667%;
+					width: 41.6666666667%;
 				}
 
 				.row > .off-5-mobilep {
-					margin-left: 41.66667%;
+					margin-left: 41.6666666667%;
 				}
 
 				.row > .col-6-mobilep {
@@ -1812,19 +1812,19 @@
 				}
 
 				.row > .col-7-mobilep {
-					width: 58.33333%;
+					width: 58.3333333333%;
 				}
 
 				.row > .off-7-mobilep {
-					margin-left: 58.33333%;
+					margin-left: 58.3333333333%;
 				}
 
 				.row > .col-8-mobilep {
-					width: 66.66667%;
+					width: 66.6666666667%;
 				}
 
 				.row > .off-8-mobilep {
-					margin-left: 66.66667%;
+					margin-left: 66.6666666667%;
 				}
 
 				.row > .col-9-mobilep {
@@ -1836,19 +1836,19 @@
 				}
 
 				.row > .col-10-mobilep {
-					width: 83.33333%;
+					width: 83.3333333333%;
 				}
 
 				.row > .off-10-mobilep {
-					margin-left: 83.33333%;
+					margin-left: 83.3333333333%;
 				}
 
 				.row > .col-11-mobilep {
-					width: 91.66667%;
+					width: 91.6666666667%;
 				}
 
 				.row > .off-11-mobilep {
-					margin-left: 91.66667%;
+					margin-left: 91.6666666667%;
 				}
 
 				.row > .col-12-mobilep {
@@ -2178,14 +2178,10 @@
 			input[type="radio"] + label:before {
 				-moz-osx-font-smoothing: grayscale;
 				-webkit-font-smoothing: antialiased;
-				display: inline-block;
+				font-family: FontAwesome;
 				font-style: normal;
-				font-variant: normal;
-				text-rendering: auto;
-				line-height: 1;
+				font-weight: normal;
 				text-transform: none !important;
-				font-family: 'Font Awesome 5 Free';
-				font-weight: 900;
 			}
 
 			input[type="checkbox"] + label:before,
@@ -2195,14 +2191,13 @@
 				border: solid 1px #e5e5e5;
 				content: '';
 				display: inline-block;
-				font-size: 0.8em;
-				height: 2.25em;
+				height: 1.8em;
 				left: 0;
-				line-height: 2.25em;
+				line-height: 1.725em;
 				position: absolute;
 				text-align: center;
 				top: 0;
-				width: 2.25em;
+				width: 1.8em;
 			}
 
 		input[type="checkbox"]:checked + label:before,
@@ -2329,6 +2324,18 @@
 			text-align: center;
 		}
 
+		.box.special p {
+			text-align: left;
+		}
+
+		.box.special ul {
+			text-align: left;
+		}
+
+		.box.special .icons {
+			text-align: center;
+		}
+
 		.box .image.featured {
 			border-radius: 0;
 			display: block;
@@ -2362,6 +2369,13 @@
 				.box .image.featured:last-child img {
 					border-radius: 0 0 6px 6px;
 				}
+	.box-little {
+		background: #fff;
+		border-radius: 6px;
+		box-shadow: 0 2px 0 0 #e5e5e5;
+		margin: 0 0 2em 0;
+		padding: 0em;
+	}
 
 /* Icon */
 
@@ -2374,30 +2388,14 @@
 		.icon:before {
 			-moz-osx-font-smoothing: grayscale;
 			-webkit-font-smoothing: antialiased;
-			display: inline-block;
+			font-family: FontAwesome;
 			font-style: normal;
-			font-variant: normal;
-			text-rendering: auto;
-			line-height: 1;
+			font-weight: normal;
 			text-transform: none !important;
-			font-family: 'Font Awesome 5 Free';
-			font-weight: 400;
 		}
 
 		.icon > .label {
 			display: none;
-		}
-
-		.icon:before {
-			line-height: inherit;
-		}
-
-		.icon.solid:before {
-			font-weight: 900;
-		}
-
-		.icon.brands:before {
-			font-family: 'Font Awesome 5 Brands';
 		}
 
 		.icon.major {
@@ -2466,8 +2464,8 @@
 			padding: 0 0 1em 1.5em;
 			top: 0.25em;
 		}
-        
-        .image.round {
+
+		.image.round {
 			width: 15em;
 			overflow: hidden;
 			-ms-flex: 1;
@@ -3560,14 +3558,10 @@
 					#navButton .toggle:before {
 						-moz-osx-font-smoothing: grayscale;
 						-webkit-font-smoothing: antialiased;
-						display: inline-block;
+						font-family: FontAwesome;
 						font-style: normal;
-						font-variant: normal;
-						text-rendering: auto;
-						line-height: 1;
+						font-weight: normal;
 						text-transform: none !important;
-						font-family: 'Font Awesome 5 Free';
-						font-weight: 900;
 					}
 
 					#navButton .toggle:before {
