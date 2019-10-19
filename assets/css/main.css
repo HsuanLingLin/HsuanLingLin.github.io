@@ -2339,9 +2339,9 @@
 		.box .image.featured {
 			border-radius: 0;
 			display: block;
-			margin: 3em 0 3em -3em;
+			margin: auto;
 			position: relative;
-			width: calc(100% + 6em);
+			width: calc(50% + 3em);
 		}
 
 			.box .image.featured img {
