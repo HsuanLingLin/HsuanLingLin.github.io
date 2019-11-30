@@ -37,49 +37,66 @@
 				<section id="main" class="container">
 					<header>
 						<h2>National Tsing Hua University Library Wireless Tour Guide</h2>
-						<p>Developed wireless tour guide system for NTHU library.</p>
+						<p>Developed a wireless tour guide system for NTHU library.</p>
 					</header>
 					    <div class="box">
 							<span class="image featured"><img src="images/MasterProject.jpg" alt="" /></span>
-							<h4>Project Background : Thesis Project</h4>
-							<h4>Project supervisor : Dr. Yuh-Ren Tsai</h4>
+							<h4>Project Background: Thesis Project</h4>
+							<h4>Project supervisor: Dr. Yuh-Ren Tsai</h4>
 							<!--<h4>Audience : On-line how-to knowledge learners | On-line how-to knowledge tutors</h4>
 							<h4>Demo in NTU IoX Center Workshop on Augmented Collective Beings, 2017</h4>
 							<h4>A group project</h4>-->
 							<div class="row">
 								<div class="row-6 row-12-mobilep">
 									<h3>Abstract</h3>
-									<p>A wireless tour guide system to provide the user library tour service by placing at least one Linux-based embedded system(Controller) on every floor and number of Bluetooth USB dongles connected by the controller via USB HUB.</p>
-									<p>Scenario: When a user is in the coverage of a tour node via Bluetooth technology, the APP of the library tour will show the user's location. Also, it will provide a tour file of this area for the user. (e.g., Photo, introduction, audio, video…)</p>
+									<p>A wireless tour guide system for NTHU Library by integrating embedded systems (controllers), Bluetooth USB dongles (tour nodes), and content management server.</p>
+									<!--A wireless tour guide system to provide the user library tour service by placing at least one Linux-based embedded system(Controller) on every floor and number of Bluetooth USB dongles connected by the controller via USB HUB.-->
+									<p>Scenario: when users are in coverage of tour node, the tour guide app will show users’ location and provide them information of the area (e.g., Photo, introduction, audio, video…).</p>
 								</div>
 								<div class="row-6 row-12-mobilep">
 									<h3>Architecture Design</h3>
-									<p>The program focused on how to manage Controllers of every floor and so many nodes. By building the content management server, the program implemented three features of server: receiving, processing, sending.
-										I Developed the web application as the geographic user interface(GUI) on the server-side, and thus the admin could operate the system efficiently.</p>
+									<li>Provided location-based service for users by placing at least one Linux-based embedded system (controllers) on every floor and number of Bluetooth USB dongles connected to the controller (Raspberry Pi) via USB HUB. </li>
+									<li>The program focused on managing controllers of every floor and tour nodes by implementing the integration of content management server and Linux-based embedded system via MQTT protocol (IoT protocol).</li>
 									<span class="image featured"><img src="images/floor.png" alt="" /></span>
-									<p>The web application using the MQTT protocol, which is standardized by OASIS, to communicate with the controller.
-										By the design of the MQTT topic and messages, the program implemented the initializing feature, floor management feature, monitor Bluetooth nodes feature, and statistics feature.
-										With the monitoring feature, the admin will know the status of nodes (no response or alive), and the statistics feature will let the admin know the hits of each file type.
-										As a result, they will know how to improve user experience through statistic information.</p>
+									<br>
+                                    <li>Designed MQTT topics/messages and scripts in Linux-based embedded systems to enable automatic configuration of embedded systems, and enable web application to monitor connections of guide nodes.</li>
+                                    <span class="image featured"><img src="images/MQTT_Broker.png" alt="" /></span>
+                                    <span class="image featured"><img src="images/MQTT.png" alt="" /></span>
+									<li>Created web application as GUI tool on server for admin to manage content of areas, initialize settings, monitor guide nodes and provide statistics results.
+										With the monitoring feature, the admin will know the status of nodes (no response or alive), and statistics results feature will let the admin know hits of each file type.
+										As a result, they will know how to improve user experience through statistic information.</li><br>
 								</div>
 							</div>
-							<span class="image featured"><img src="images/MQTT.png" alt="" /></span>
+
 							<div class="row">
 								<div class="row-6 row-12-mobilep">
 									<h3>Content-Management Server</h3>
 									<p>Admin - GUI Interface</p>
 								</div>
 							</div>
-							<p>Index</p>
+							<li>Index: display four main features</li>
 							<span class="image featured"><img src="images/server.png" alt="" /></span>
-							<p>Monitor Feature : <br>
-							   Alive
+							<li>Initialize settings: </li>
+							  <p> Activate controllers by input IP address and naming controllers
+							</p>
+							<span class="image featured"><img src="images/Input_controller_IP.png" alt="" /></span>
+							<li>Manage content of areas:</li>
+							 <p>  Naming tour nodes (Bluetooth dongles) and content of areas.
+							</p>
+							<span class="image featured"><img src="images/area_name.png" alt="" /></span>
+							<span class="image featured"><img src="images/floor_management.png" alt="" /></span>
+							<p>Controller info (e.g., 2F1): <br>
+							</p>
+							<span class="image featured"><img src="images/floor_area.png" alt="" /></span>
+							<li>Monitor guide nodes:</li>
+							 <p>  Alive
 							</p>
 							<span class="image featured"><img src="images/server2.png" alt="" /></span>
 							<p>
 							   No response
 							</p>
 							<span class="image featured"><img src="images/server3.png" alt="" /></span>
+
 						</div>
 				</section>
 
