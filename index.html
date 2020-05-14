@@ -28,18 +28,18 @@
 							<li><a href="work.html">Work</a></li>
 							<li><a href="nthuguidesystem.html">NTHU Guide System</a></li>
 							<li><a href="catchup.html">CatchUp</a></li>
-							<!--<li>
-										<a href="#">Submenu</a>
-										<ul>
-											<li><a href="#">Option One</a></li>
-											<li><a href="#">Option Two</a></li>
-											<li><a href="#">Option Three</a></li>
-											<li><a href="#">Option Four</a></li>
-										</ul>
-									</li>-->
 						</ul>
 					</li>
-					<li><a href="#main" class="button">About Me</a></li>
+					<li>
+						<a href="#" class="icon solid fa-angle-down">Side Projects</a>
+						<ul>
+							<li><a href="productmanaging.html">Products Managing Web</a></li>
+							<li><a href="stockchatbot.html">Stock Query Bot</a></li>
+						</ul>
+						</a>
+					</li>
+
+					<li><a href="index.html/#main" class="button">About Me</a></li>
 				</ul>
 			</nav>
 		</header>
@@ -89,141 +89,183 @@
 
 				</header>
 				<!--span><img width="20%" float="left" src="images/profile.jpg" alt="" /></span-->
-
-				<section class="box special">
-					<div class="features-row">
-						<section>
-							<!--span class="icon major fa-area-chart accent3"></span-->
-							<img class="image round2" src="images/Logo/MSTAR.jpg" alt="" />
-							<h3>Software Engineer at MStar Semiconductor, Inc.</h3>
-							<p>Dec. 2016 - Jan. 2019<br>Taipei, Taiwan</p>
+			</section>
+			<div class="box special" style="background-image: url('images/pic01.jpg')" id="Experience">
+				<header class="major">
+					<h2 style="color: #ffffff;">Experience</h2>
+				</header>
+			</div>
+			<section class="box special">
+				<div class="features-row">
+					<section>
+						<!--span class="icon major fa-area-chart accent3"></span-->
+						<img class="image round2" src="images/Logo/MSTAR.jpg" alt="" />
+						<h3>Software Engineer at MStar Semiconductor, Inc.</h3>
+						<p>Dec. 2016 - Jan. 2019<br>Taipei, Taiwan</p>
+						<ul>
+							<li>MStar Short Term Award * 2 (given to up to three outstanding employees in the
+								Research and Development Division each quarter.)</li>
+							<li>Video encoder (JPEG/H.264/HEVC) FPGA verification: implemented test features in
+								encoder software model (C/C++ based) for verifying hardware functions, covered all
+								target test items.</li>
+							<li>Video decoder (Google AV1) FPGA verification: responsible for hardware AV1 decoder
+								IQ/IT verification, including developing IQ/IT patterns for hardware IP verification
+								using AV1 software model.</li>
+							<li>LZMA encoder (HW oriented Dictionary encoding) FPGA verification: designed testing
+								flows and established testing software model (C++ based) for testing different modes
+								of hardware, software model completed 100% target tests by comparing CRC, compressed
+								bit-streams, byte-count and decompressed data.</li>
+							<li>Improved compression rate of motion vector in Google AV1 c-model by 65% through
+								researching and developing data compression algorithm.</li>
+							<li>Developed desktop application as GUI tool to decode multi-format coding image and
+								display a variety of YUV formats, designed user-friendly interface.</li>
+							<li>Analyzed issues, reported test results, and worked with hardware designer to resolve
+								problems.</li>
+							<li>Leveraged knowledge in git, video codec, scripting language, programmed in C/C++
+								using Visual C++, debugged using miniport drivers (UDMA tool) to access hardware
+								register and dump DRAM.</li>
+						</ul>
+					</section>
+					<section>
+						<!--span class="icon major fa-bolt accent2"></span-->
+						<img class="image round" src="images/Logo/NTHU.png" alt="" />
+						<h3>M.S. in Communications Engineering, National Tsing Hua University</h3>
+						<p>Sept. 2013 - July 2016<br>Hsinchu, Taiwan
 							<ul>
-								<li>MStar Short Term Award * 2 (given to up to three outstanding employees in the
-									Research and Development Division each quarter.)</li>
-								<li>Video encoder (JPEG/H.264/HEVC) FPGA verification: implemented test features in
-									encoder software model (C/C++ based) for verifying hardware functions, covered all
-									target test items.</li>
-								<li>Video decoder (Google AV1) FPGA verification: responsible for hardware AV1 decoder
-									IQ/IT verification, including developing IQ/IT patterns for hardware IP verification
-									using AV1 software model.</li>
-								<li>LZMA encoder (HW oriented Dictionary encoding) FPGA verification: designed testing
-									flows and established testing software model (C++ based) for testing different modes
-									of hardware, software model completed 100% target tests by comparing CRC, compressed
-									bit-streams, byte-count and decompressed data.</li>
-								<li>Improved compression rate of motion vector in Google AV1 c-model by 65% through
-									researching and developing data compression algorithm.</li>
-								<li>Developed desktop application as GUI tool to decode multi-format coding image and
-									display a variety of YUV formats, designed user-friendly interface.</li>
-								<li>Analyzed issues, reported test results, and worked with hardware designer to resolve
-									problems.</li>
-								<li>Leveraged knowledge in git, video codec, scripting language, programmed in C/C++
-									using Visual C++, debugged using miniport drivers (UDMA tool) to access hardware
-									register and dump DRAM.</li>
+								<li>Thesis: Implementation of MQTT Protocol for
+									Content Management Servers and Linux-Based Embedded Systems</li>
+								<li>GPA: 3.96/4.3</li>
 							</ul>
-						</section>
-						<section>
-							<!--span class="icon major fa-bolt accent2"></span-->
-							<img class="image round" src="images/Logo/NTHU.png" alt="" />
-							<h3>M.S. in Communications Engineering, National Tsing Hua University</h3>
-							<p>Sept. 2013 - July 2016<br>Hsinchu, Taiwan
-								<ul>
-									<li>Thesis: Implementation of MQTT Protocol for
-										Content Management Servers and Linux-Based Embedded Systems</li>
-									<li>GPA: 3.96/4.3</li>
-								</ul>
-						</section>
-					</div>
-					<div class="features-row">
-						<section>
-							<!--span class="icon major fa-bolt accent2"></span-->
-							<img class="image round" src="images/Logo/NCU.jpg" alt="" />
-							<h3>B.S. in Communication Engineering, National Central University</h3>
-							<p>Sept. 2009 - June 2013<br>Taoyuan, Taiwan
-								<ul>
-									<li>CatchUp: a cloud platform for taking meeting minutes</li>
-									<li>Academic Excellence Award (for ranking top three in class in semester)</li>
-								</ul>
-						</section>
-					</div>
+					</section>
+				</div>
+				<div class="features-row">
+					<section>
+						<!--span class="icon major fa-bolt accent2"></span-->
+						<img class="image round" src="images/Logo/NCU.jpg" alt="" />
+						<h3>B.S. in Communication Engineering, National Central University</h3>
+						<p>Sept. 2009 - June 2013<br>Taoyuan, Taiwan
+							<ul>
+								<li>CatchUp: a cloud platform for taking meeting minutes</li>
+								<li>Academic Excellence Award (for ranking top three in class in semester)</li>
+							</ul>
+					</section>
+				</div>
+			</section>
+			<div class="box special" style="background-image: url('images/pic01.jpg')" id="Portfolio">
+				<header class="major">
+					<h2 style="color: #ffffff;">Portfolio</h2>
+				</header>
+			</div>
 
-					<div class="box special" style="background-image: url('images/SEA.jpg')" id="Portfolio">
-						<header class="major">
-							<h2 style="color: #ffffff;">Portfolio</h2>
-						</header>
-					</div>
+			<div class="row">
+				<div class="col-6 col-12-narrower">
 
-					<div class="row">
-						<div class="col-6 col-12-narrower">
+					<section class="box special">
+						<span class="image featured"><img height="350" src="images/MasterProject.jpg" alt="" /></span>
+						<h3>National Tsing Hua University Library Wireless Tour Guide Program</h3>
+						<p><b>Project Background:</b> Thesis Project<br><b>Project date:</b> 2015 Fall - 2016
+							Summer<br>
+							<p>Developed a wireless tour guide system for NTHU Library by integrating embedded
+								systems (controllers), Bluetooth USB dongles (tour nodes), and content
+								management server; when users are in coverage of tour node, the tour guide app will
+								show
+								users’ location and provide them information of the area.</p>
+							<ul class="actions special">
+								<li><a href="nthuguidesystem.html" class="button alt">Learn More</a></li>
+							</ul>
+					</section>
 
-							<section class="box special">
-								<img src="images/MasterProject.jpg" width="120%" alt="" />
-								<h3>National Tsing Hua University Library Wireless Tour Guide Program</h3>
-								<p>Developed a wireless tour guide system for NTHU Library by integrating embedded
-									systems (controllers), Bluetooth USB dongles (tour nodes), and content management
-									server; when users are in coverage of tour node, the tour guide app will show users’
-									location and provide them information of the area.</p>
-								<ul class="actions special">
-									<li><a href="nthuguidesystem.html" class="button alt">Learn More</a></li>
-								</ul>
-							</section>
+				</div>
+				<div class="col-6 col-12-narrower">
 
-						</div>
-						<div class="col-6 col-12-narrower">
+					<section class="box special">
+						<span class="image featured"><img height="350" src="images/CollegeProject.jpg" width="120%"
+								alt="" /></span>
+						<h3>Catchup (a cloud platform for taking meeting minutes)</h3>
+						<p><b>Project Background:</b> CEECS Special Projects Competition<br><b>Project date:</b>
+							2011 Fall - 2012 Summer<br>
+							<p>Developed work productivity platform with commercial features; when users are in the
+								same Access Point or they use a tag and a gateway to mark themselves as being in the
+								same place, they can select members and form a group; members could then take
+								meeting minutes, send and receive messages, track members’ location, transfer files,
+								and add tasks to the team schedule.<br></p>
+							<ul class="actions special">
+								<li><a href="catchup.html" class="button alt">Learn More</a></li>
+							</ul>
+					</section>
+				</div>
+			</div>
 
-							<section class="box special">
-								<img src="images/CollegeProject.jpg" width="100%" alt="" />
-								<h3>Catchup : A cloud platform for meeting minutes</h3>
-								<p>Developed work productivity platform with commercial features; when users are in the
-									same Access Point or they use a tag and a gateway to mark themselves as being in the
-									same place, they can select members and form a group; members could then take
-									meeting minutes, send and receive messages, track members’ location, transfer files,
-									and add tasks to the team schedule.<br></p>
-								<ul class="actions special">
-									<li><a href="catchup.html" class="button alt">Learn More</a></li>
-								</ul>
-							</section>
+			<!-- <div class="box special" style="background-image: url('images/pic01.jpg')" id="Portfolio">
+				<header class="major">
+					<h2 style="color: #ffffff;">Side Projects</h2>
+				</header>
+			</div> -->
+			<div class="row">
+				<div class="col-6 col-12-narrower">
 
-						</div>
-					</div>
+					<section class="box special">
+						<span class="image featured"><img height="200" src="images/Flask/index.png" alt="" /></span>
+						<h3>A products managing website</h3>
+						<p><b>Project Background:</b> Side Project<br><b>Project date:</b> 2020 Feb. - 2020
+							Mar.<br>
+							<p>Developed a dynamic and interactive website, implement CRUD functions and message board.
+								Leveraged the Flask framework, implemented database via Firebase,
+								and deployed the webapp using Heroku. The UI was created using Bootstrap pacakge.</p>
+							<ul class="actions special">
+								<li><a href="productmanaging.html" class="button alt">Learn More</a></li>
+							</ul>
+					</section>
 
-				</section>
+				</div>
+				<div class="col-6 col-12-narrower">
 
-				<section id="cta">
-					<h2>Contact Me</h2>
-					<!--div class="row gtr-50 gtr-uniform"-->
-					<!--div class="col-8 col-12-mobilep">
-									<input type="email" name="email" id="email" placeholder="Email Address" />
-								</div>
-								<div class="col-4 col-12-mobilep">
-									<input type="submit" value="Sign Up" class="fit" />
-								</div-->
-					<div align="center" class="col-4 col-12-mobilep">
-						<iframe width='650' height='300' src='https://www.surveycake.com/s/w4mRe'
-							style='overflow:hidden;border:#ddd 10px solid;' allowTransparency='false' frameborder='0'>
-						</iframe>
-					</div>
-					<!--/div-->
-				</section>
+					<section class="box special">
+						<span class="image featured"><img height="200" src="images/Flask/spock_flow.png"
+								alt="" /></span>
+						<h3>Real-time Stock Query bot</h3>
+						<p><b>Project Background:</b> Side Project<br><b>Project date:</b>
+							2020 Apr.<br>
+							<p>Line chatbot with offering real-time stock price query.
+								Leveraged the Flask framework, implemented database via Firebase, and deployed the
+								webapp using Heroku.
+								Scraping stock price with PyQuery.<br></p>
+							<ul class="actions special">
+								<li><a href="stockchatbot.html" class="button alt">Learn More</a></li>
+							</ul>
+					</section>
+				</div>
+			</div>
+		</section>
 
-				<!-- Footer -->
-				<footer id="footer">
-					<ul class="icons">
-						<li><a href="https://www.linkedin.com/in/hsuan-ling-lin" class="icon fa-linkedin"><span
-									class="label">Linkedin</span></a></li>
-						<li><a href="https://github.com/hsuanlinglin" class="icon fa-github"><span
-									class="label">Github</span></a></li>
-						<li><a href="mailto: hsuanlinglin@gmail.com" class="icon fa-envelope "><span
-									class="label">Gmail</span></a></li>
-					</ul>
-					<ul class="copyright">
-						<li>&copy; Untitled. All rights reserved.</li>
-						<li>Design: <a href="http://html5up.net">HTML5 UP</a>, <a href="#">Hsuan-Ling Lin</a></li>
-						<div>Icons made by <a href="https://www.freepik.com/" title="Freepik">Freepik</a> from <a
-								href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a
-								href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0"
-								target="_blank">CC 3.0 BY</a></div>
-					</ul>
-				</footer>
+		<!-- <section id="cta">
+			<h2>Contact Me</h2>
+			<div align="center" class="col-4 col-12-mobilep">
+				<iframe width='650' height='300' src='https://www.surveycake.com/s/w4mRe'
+					style='overflow:hidden;border:#ddd 10px solid;' allowTransparency='false' frameborder='0'>
+				</iframe>
+			</div>
+		</section> -->
+
+		<!-- Footer -->
+		<footer id="footer">
+			<ul class="icons">
+				<li><a href="https://www.linkedin.com/in/hsuan-ling-lin" class="icon fa-linkedin"><span
+							class="label">Linkedin</span></a></li>
+				<li><a href="https://github.com/hsuanlinglin" class="icon fa-github"><span
+							class="label">Github</span></a></li>
+				<li><a href="mailto: hsuanlinglin@gmail.com" class="icon fa-envelope "><span
+							class="label">Gmail</span></a></li>
+			</ul>
+			<ul class="copyright">
+				<li>&copy; Untitled. All rights reserved.</li>
+				<li>Design: <a href="http://html5up.net">HTML5 UP</a>, <a href="#">Hsuan-Ling Lin</a></li>
+				<div>Icons made by <a href="https://www.freepik.com/" title="Freepik">Freepik</a> from <a
+						href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a
+						href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0"
+						target="_blank">CC 3.0 BY</a></div>
+			</ul>
+		</footer>
 
 	</div>
 
