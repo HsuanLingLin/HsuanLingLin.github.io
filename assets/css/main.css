@@ -108,9 +108,11 @@
 		background: #f5f5f5;
 	}
 
+	@import url(//fonts.googleapis.com/earlyaccess/notosanstc.css);
 	body, input, select, textarea {
 		color: #777;
-		font-family: "Source Sans Pro", sans-serif;
+		/*font-family: "Source Sans Pro", sans-serif;*/
+		font-family: 'Noto Sans TC', '微軟正黑體', sans-serif;
 		font-size: 16pt;
 		font-weight: 300;
 		line-height: 1.65em;
@@ -3182,7 +3184,7 @@
 	#banner {
 		background-attachment: scroll,							fixed;
 		background-color: #666;
-		background-image: url("images/overlay.png"), url("../../images/spiderman.jpg");
+		background-image: url("images/overlay.png"), url("../../images/rice2.jpeg");
 		background-position: top left,						center center;
 		background-repeat: repeat,							no-repeat;
 		background-size: auto,							cover;
