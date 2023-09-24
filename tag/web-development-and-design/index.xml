@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Web Development and Design | Hsuan-Ling Lin</title>
+    <link>https://hsuanlinglin.info/tag/web-development-and-design/</link>
+      <atom:link href="https://hsuanlinglin.info/tag/web-development-and-design/index.xml" rel="self" type="application/rss+xml" />
+    <description>Web Development and Design</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 10 May 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://hsuanlinglin.info/media/icon_hueadeb4c6be4cf7f383d512f06b6da692_21955_512x512_fill_lanczos_center_3.png</url>
+      <title>Web Development and Design</title>
+      <link>https://hsuanlinglin.info/tag/web-development-and-design/</link>
+    </image>
+    
+    <item>
+      <title>GotchaDev - Full Stack Web Development · ReactJS</title>
+      <link>https://hsuanlinglin.info/project/gotchadev/</link>
+      <pubDate>Tue, 10 May 2022 00:00:00 +0000</pubDate>
+      <guid>https://hsuanlinglin.info/project/gotchadev/</guid>
+      <description>&lt;p&gt;GotchaDev is a facebook-like social networking web application.
+GotchaDev exploited React and Redux to construct front-end, realized client-server communication by RESTful APIs,
+implemented back-end by Node.js and MongoDB. The E2E test and unit test used Jest and Enzyme to achieved 80% test coverage.&lt;/p&gt;
+&lt;p&gt;GotchaDev provides following functionality:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;users can register a new account or log in with third party authentications. The password is hashed and salted.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-screenshot-of-third-party-login&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;screenshot of third-party login&#34; srcset=&#34;
+               /project/gotchadev/third-party_hucf7029d01c87aaf2dbc70fd862d44241_46131_cb4d99f84ce066fe946a12556acf878f.webp 400w,
+               /project/gotchadev/third-party_hucf7029d01c87aaf2dbc70fd862d44241_46131_d8842c06f4cb759a68ee165ca240078f.webp 760w,
+               /project/gotchadev/third-party_hucf7029d01c87aaf2dbc70fd862d44241_46131_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://hsuanlinglin.info/project/gotchadev/third-party_hucf7029d01c87aaf2dbc70fd862d44241_46131_cb4d99f84ce066fe946a12556acf878f.webp&#34;
+               width=&#34;604&#34;
+               height=&#34;668&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      screenshot of third-party login
+    &lt;/figcaption&gt;&lt;/figure&gt;&lt;/li&gt;
+&lt;li&gt;Display user feed. Users can post and comment articles, and follow other users.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-screenshot-of-gotchadev-user-feed&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;screenshot of GotchaDev user feed&#34; srcset=&#34;
+               /project/gotchadev/post_hu6c335efe47bcdf7299d5bf62a8b84292_2224401_fe7a7f6bce48ab39201d90333d1471d6.webp 400w,
+               /project/gotchadev/post_hu6c335efe47bcdf7299d5bf62a8b84292_2224401_85185ac0d4c9c1e04790e6fd7567cea4.webp 760w,
+               /project/gotchadev/post_hu6c335efe47bcdf7299d5bf62a8b84292_2224401_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://hsuanlinglin.info/project/gotchadev/post_hu6c335efe47bcdf7299d5bf62a8b84292_2224401_fe7a7f6bce48ab39201d90333d1471d6.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;583&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      screenshot of GotchaDev user feed
+    &lt;/figcaption&gt;&lt;/figure&gt;&lt;/li&gt;
+&lt;li&gt;Users can customize the profile.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-screenshot-of-customizing-profile&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;screenshot of customizing profile&#34; srcset=&#34;
+               /project/gotchadev/profile-update_hufc5eb13063d296d1220b632ab625f52f_249347_3ce8743485128ca3ef3d458ad8fe383c.webp 400w,
+               /project/gotchadev/profile-update_hufc5eb13063d296d1220b632ab625f52f_249347_5eed485dc1a5dcb1ca6a010e0ff71c59.webp 760w,
+               /project/gotchadev/profile-update_hufc5eb13063d296d1220b632ab625f52f_249347_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://hsuanlinglin.info/project/gotchadev/profile-update_hufc5eb13063d296d1220b632ab625f52f_249347_3ce8743485128ca3ef3d458ad8fe383c.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;322&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      screenshot of customizing profile
+    &lt;/figcaption&gt;&lt;/figure&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>JKO e-ticketing system</title>
+      <link>https://hsuanlinglin.info/project/jkolioneer/</link>
+      <pubDate>Sat, 10 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>https://hsuanlinglin.info/project/jkolioneer/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;The JKO e-ticketing backend service is built by Java Spring Boot with order, ticket and content management modules.
+The sports team can launch events, sell tickets, verify entrance tickets and manage orders.
+Customers can buy tickets and transfer tickets through system.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The e-ticketing system is implemented by Java Spring Boot, using RESTful APIs, constructed business need database by
+MySQL, deployed by Docker, adopted Jenkins for CI/CD and ELK stack for log management.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
